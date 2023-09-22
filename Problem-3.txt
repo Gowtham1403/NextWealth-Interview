@@ -1,0 +1,21 @@
+No need to write a program. Just pseudocode is enough
+
+Define a class for a instagram post. Define the properties and functions.
+Define which one will be private and which one public.
+
+
+class InstagramPost:
+
+ Public properties
+
+    public caption: string
+    public imageUrl: string
+    public location: string
+    public hashtags: list of strings
+    public likes: integer
+    public comments: list of Comment objects 
+
+   
+ Private properties
+ 
+    private owner: User 
